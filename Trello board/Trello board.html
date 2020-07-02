@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="as2.css">
+  <style type="text/css">
+    body {
+  // margin: 0;
+  // padding: 0;
+  
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.layout {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-gap: 10px;
+ 
+
+}
+.layout__list {
+  box-sizing: border-box;
+  align-self: flex-start;
+  background-color: lightgray;
+  display: grid;
+  // grid-gap: 5px;
+  border-radius: 4px;  
+}
+.list__card {
+
+  background-color: ghostwhite;
+  background: ghostwhite;
+  display: grid;
+  box-sizing: border-box;
+  margin: 6px;
+
+  padding: 8px;
+  }
+  .list__card1 {
+
+  box-sizing: border-box;
+  margin: 6px;
+  padding: 8px;
+  }
+
+  </style>
+</head>
+<body>
+ 
+  <div class='layout'>
+    
+    <div class='layout__list'>
+      <div class='list__card1'>
+        <span>To Do<span style="margin-left:110px">...</span></span>
+        
+      </div>
+      <div class='list__card'>
+        <span >Learn HTML</span>
+      </div>
+      <div class='list__card'>
+        <span>Learn CSS</span>
+      </div>
+      <div class='list__card1'>
+        <span>+ Add another card</span>
+      </div>
+      
+    </div>
+     <div class='layout__list'>
+      <div class='list__card1'>
+        <span>Doing<span style="margin-left:110px">...</span></span>
+      </div>
+      <div class='list__card'>
+        <span>prepare resume</span>
+      </div>
+      <div class='list__card1'>
+        <span>+ Add another card</span>
+      </div>
+      
+    </div>
+    <div class='layout__list'>
+      <div class='list__card1'>
+        <span>Done<span style="margin-left:110px">...</span></span>
+      <div class='list__card1'>
+        <span>+ Add card</span>
+      </div>
+      
+    </div>
+  </div>
+   <div class='layout__list'>
+      <div class='list__card1'>
+        <span>+ Add card</span>
+      </div>
+      
+    </div>
+  </div>
+
+    
+    
+  </div>
+  
+</body>
+</html>
