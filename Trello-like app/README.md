@@ -1,1 +1,1 @@
-
+ The “Add another list” when clicked will actually hide the “Add another list” message and show the Add List form. However since that cannot be shown in a screenshot, the form has been shown in a separate screenshot. Similarly, when “Add another card” on a list is clicked, 
